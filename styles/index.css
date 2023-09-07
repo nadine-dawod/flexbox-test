@@ -66,6 +66,7 @@
     width: 78px;
     height: 120px;
     max-height: 100%;
+    min-height: 78px;
 }
 
 
@@ -95,13 +96,12 @@ as the other orange boxes */
 .flex-box-4 {
     justify-content: space-around;
     height: 160px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 /* individual styling for the red squares in the fourth orange box */
 .flex-square-4 {
     width: 78px;
     height: 78px;
+    margin: 20px;
 }
 /* individual styling for the last red squares in the fourth orange box */
 .flex-square-4:nth-child(3) {
@@ -122,13 +122,13 @@ as the other orange boxes */
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    vertical-align: middle;
 }
 /* individual styling for the red squares in the fifth orange box */
 .flex-square-5 {
     width: 78px;
     height: 120px;
     max-height: 100%;
+    align-items: baseline;
 }
 /* individual styling for the middle red squares in the fifth orange box */
 .flex-square-5:nth-child(2) {
