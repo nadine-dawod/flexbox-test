@@ -1,0 +1,25 @@
+.town {
+    background: #FAA307;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.house {
+    width: 273px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.H1, .H3, .H5 {
+    background: #03071E;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.H2, .H4 {
+    background: #6A040F;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
